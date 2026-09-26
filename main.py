@@ -1290,7 +1290,6 @@ def main():
     num_classes = dataset_num_classes[args.dataset]
 
     ts = datetime.datetime.now().strftime("%Y-%m-%d-%H-%M-%S")
-    # base_name = f"comm_cifar100_nc{args.nc}_snr{args.snr}"
     rho_tag = f"{args.age_rho:g}".replace(".", "p")
 
     base_name = (
